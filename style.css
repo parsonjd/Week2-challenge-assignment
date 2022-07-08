@@ -5,6 +5,7 @@
   --white: #fff;
   --stylish: rgb(34, 129, 158);
   --borders: rgb(0, 24, 26);
+  --text-box: rgba(211, 211, 211, 0.61);
 }
 
 html {
@@ -53,6 +54,7 @@ nav ul {
   justify-content: space-between;
   min-width: 300px;
   font-size: 2rem;
+  margin-top: 2rem;
 }
 
 nav a {
@@ -163,18 +165,18 @@ span {
   position: absolute;
   bottom: 1.2rem;
   left: 1rem;
-  background-color: black;
+  background-color: var(--text-box);
   padding: 0 2rem;
   font-size: 1.4rem;
-  padding: 0;
-  width: 50%;
-
+  width: auto;
+  color: black;
 }
 
 /* Separate span to get font-size smaller in textbox */
 .pic-caption {
   font-size: 1rem;
-  color: var(--stylish);
+  /* color: var(--stylish); */
+  color: black;
 }
 
 .other-projects {
@@ -203,17 +205,16 @@ span {
   position: absolute;
   bottom: 3.3rem;
   left: 3.9rem;
-  background-color: black;
+  background-color: var(--text-box);
   padding: 0 2rem;
   font-size: 1.2rem;
-  padding: 0;
-  color: var(--stylish);
-  width: 30%;
+  color: black;
+  width: auto;
 }
 
 .pic-caption2 {
   font-size: 0.8rem;
-  color: var(--stylish);
+  color: black;
 }
 
 .project3 {
@@ -224,12 +225,11 @@ span {
   position: absolute;
   bottom: 3.4rem;
   left: 4rem;
-  background-color: black;
+  background-color: var(--text-box);
   padding: 0 2rem;
   font-size: 1.2rem;
-  padding: 0;
-  color: var(--stylish);
-  width: 25%;
+  color: black;
+  width: auto;
 }
 
 #contact {
